@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $code = $_POST['code'];
     $password = $_POST['password'];  // Get the password from the form
-
+// if you want to hash password in data base use this 82 and 83,84 line code
     // Hash the password before storing it
     // $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
