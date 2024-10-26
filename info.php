@@ -11,9 +11,9 @@
     <input type="number" id="id" name="id" placeholder="ex:10025600" required><br>
 
     <label for="blance">Total Salary:</label>
-    <input type="number" name="blance" id="blance" step="0.01" required><br>
+    <input type="number" name="blance" id="blance" step="0.01" ><br>
     <label for="expense">Expense Amount:</label>
-    <input type="number" name="expense" id="expense" step="0.01" required><br><br>
+    <input type="number" name="expense" id="expense" step="0.01" ><br><br>
 
     <label for="expense_type">Choose an Expense Type:</label>
     <select name="expense_type" id="expense_type" required>
